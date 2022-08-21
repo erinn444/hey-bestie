@@ -1,0 +1,105 @@
+.hero { 
+    height: 700px;
+    background-image: url("images/hero-image (2).png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.nav img { 
+    height: 24px;
+    position: absolute;
+    left: 12px;
+    top: 4px;
+}
+
+.nav a { 
+    color: black;
+    font-weight: bold;
+}
+
+.hero h1 { 
+    text-align: center;
+    margin-top: 300px;
+    font-size: 64px;
+    font-stretch: expanded;
+    color: white;
+}
+
+.hero button { 
+    background-color: transparent;
+    color: white;
+    border: 3px solid white;
+    border-radius: 10px;
+    padding: 18px 20px;
+    position: absolute;
+    right: 650px;
+    margin-top: 20px;
+}
+
+.hero button:hover {
+    font-weight: bold;
+    color: black;
+    background-color: white;
+    border: 3px solid white;
+}
+
+.research { 
+    margin-top: 20px;
+    height: 500px;
+}
+.research-nav a { 
+    color: black;
+}
+
+.problem { 
+    display: flex;
+    flex-direction: row;
+    margin-top: 32px;
+    margin-left: 20px;
+    width: 40%;
+}
+
+.problem p { 
+    font-size: 20px;
+}
+
+.problem img { 
+    height: 520px;
+    position: absolute;
+    right: 250px;
+    top: 720px;
+    
+    
+}
+
+.research img { 
+    height: 6500px;
+    width: max-content;
+}
+
+.first-img {
+    height: 500px;
+    position: absolute;
+    right: 300px;
+}
+
+.solution {
+    margin-top: 24px;
+    margin-left: 20px;
+    width: 40%;
+}
+
+.solution p { 
+    font-size: 20px;
+}
+
+.tools {
+    margin-top: 24px;
+}
+
+.persona { 
+    display: flex;
+    flex-direction: row;
+    margin-left: 20px;
+    margin-top: 64px;
+}
